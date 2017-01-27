@@ -11,4 +11,9 @@ describe('Controllers', function(){
     it('should have enableFriends property set to true', function(){
         expect(scope.settings.enableFriends).toEqual(true);
     });
+
+    it('should have listFriends property set to true', function(){
+        expect(scope.settings.listFriends).toEqual(true);
+    });
+
 });
